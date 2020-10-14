@@ -10,11 +10,6 @@ img{
 .cn{
   font-family: 'Noto Sans TC', sans-serif;
 }
-
-.title{
-  display: flex;
-  display: inline;
-}
 .title h2{
   display: inline;
 }
@@ -95,11 +90,9 @@ img{
   padding-bottom: 72px;
 }
 .name{
-  margin-bottom: 17px;
-}
-.horizon-top{
-  border: solid 1px #000;
-  margin-bottom: 48px;
+  border-bottom: solid 1px #000;
+  padding-bottom: 17px;
+  margin-bottom: 65px;
 }
 .photo{
   margin-bottom: 48px;
@@ -146,6 +139,10 @@ img{
 .footer{
   padding-top: 24px;
   padding-bottom: 36px;
+}
+.infoTitleFlex{
+  display: flex;
+  justify-content: center;
 }
 .footer a{
   color: #fff;
