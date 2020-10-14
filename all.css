@@ -1,0 +1,159 @@
+/* 共通樣式區域開始 */
+
+img{
+  display: block;
+}
+
+.en{
+  font-family: 'Roboto', sans-serif;
+}
+.cn{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.title h2{
+  display: inline;
+}
+
+.mr-16{
+  margin-right: 16px;
+}
+.mr-24{
+  margin-right: 24px;
+}
+.mb-16{
+  margin-bottom: 16px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-24{
+  margin-bottom: 24px;
+}
+.mb-48{
+  margin-bottom: 48px;
+}
+.mb-72{
+  margin-bottom: 72px;
+}
+
+.fz-s{
+  font-size: 20px;
+}
+.fz-m{
+  font-size: 24px;
+}
+.fz-l{
+  font-size: 32px;
+}
+.fz-xl{
+  font-size: 80px;
+}
+
+.lh-xs{
+  line-height: 28px;
+}
+.lh-s{
+  line-height: 30px;
+}
+.lh-m{
+  line-height: 36px;
+}
+.lh-l{
+  line-height: 43px;
+}
+.lh-xl{
+  line-height: 94px;
+}
+
+.fw-bold{
+  font-weight: bold;
+}
+
+.tc-red{
+  color: #A00404;
+}
+
+.linkHover:hover{
+  text-decoration: underline;
+  color: lightsteelblue;
+}
+.iconHover:hover{
+  opacity: 70%;
+}
+
+/* 共通樣式區域結束 */
+
+.header{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 47px;
+  padding-bottom: 72px;
+}
+.name{
+  border-bottom: solid 1px #000;
+  padding-bottom: 17px;
+  margin-bottom: 65px;
+}
+.photo{
+  margin-bottom: 48px;
+}
+
+.skillsList{
+  padding-top: 24px;
+  padding-bottom: 36px;
+}
+.skillsList .title{
+  display: block;
+}
+.skillsList hr{
+  width: 1100px;
+  margin-bottom: 48px;
+}
+.skillsList, .footer{
+  background: #415165;
+  color: #fff;
+  text-align: center;
+}
+.skillsContent{
+  font-size: 24px;
+  text-align: left;
+  display: inline-block;
+  padding: 0 24px;
+  border-left: solid 2px #96A9C4;
+}
+
+.experience{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 72px 0;
+}
+.experienceContent{
+  border-left: solid 2px #96A9C4;
+  padding: 24px;
+  margin-left: 25px;
+}
+.experienceContent img{
+  margin: 8px 0;
+}
+
+.footer{
+  padding-top: 24px;
+  padding-bottom: 36px;
+}
+.infoTitleFlex{
+  display: flex;
+  justify-content: center;
+}
+.footer a{
+  color: #fff;
+  text-decoration: none;
+}
+.footer hr{
+  width: 1200px;
+  margin-bottom: 40px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
