@@ -10,8 +10,8 @@ img{
 .cn{
   font-family: 'Noto Sans TC', sans-serif;
 }
-.title h2{
-  display: inline;
+.jc-c{
+  justify-content: center;
 }
 
 .mr-16{
@@ -97,10 +97,13 @@ img{
 .photo{
   margin-bottom: 48px;
 }
-
 .skillsList{
   padding-top: 24px;
   padding-bottom: 36px;
+}
+.profileTitle, .eduTitle, .skillsTitle, .experienceTitle, .infoTitle{
+  display: flex;
+  align-items: center;
 }
 .skillsList .title{
   display: block;
@@ -139,10 +142,6 @@ img{
 .footer{
   padding-top: 24px;
   padding-bottom: 36px;
-}
-.infoTitleFlex{
-  display: flex;
-  justify-content: center;
 }
 .footer a{
   color: #fff;
